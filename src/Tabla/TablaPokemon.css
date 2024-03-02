@@ -1,0 +1,45 @@
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.pokemon-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    /* Borde de la tabla */
+}
+
+.pokemon-table th,
+.pokemon-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pokemon-table th {
+    background-color: #f2f2f2;
+}
+
+.pokemon-table td {
+    background-color: #fff;
+    /* Fondo blanco para las celdas */
+}
+
+.pokemon-table td img {
+    width: 80px;
+    height: 80px;
+}
+
+.pokemon-table td button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pokemon-table td button:hover {
+    background-color: #cc0000;
+}

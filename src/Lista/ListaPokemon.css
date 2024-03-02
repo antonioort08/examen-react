@@ -1,26 +1,18 @@
 .search-bar {
     margin-bottom: 20px;
-    /* Espacio entre el input y las tarjetas */
 }
 
 .search-input {
     padding: 10px;
-    /* Espaciado interno */
     font-size: 16px;
-    /* Tamaño de fuente */
     border: 2px solid #ccc;
-    /* Borde */
     border-radius: 5px;
-    /* Bordes redondeados */
     width: 300px;
-    /* Ancho del input */
 }
 
 .search-input:focus {
     outline: none;
-    /* Quita el contorno al enfocar */
     border-color: #4A90E2;
-    /* Cambia el color del borde al enfocar */
 }
 
 .card-container {
@@ -33,15 +25,11 @@
 
 .card {
     border: 2px solid black;
-    /* Borde negro */
     border-radius: 10px;
-    /* Bordes redondeados */
     margin: 10px;
     padding: 10px;
     width: 300px;
-    /* Ancho del card */
     background-color: #f0f0f0;
-    /* Color de fondo del card */
 }
 
 .card h2 {
@@ -50,18 +38,13 @@
 
 .sprite {
     text-align: center;
-    /* Centrar la imagen */
 }
 
 .sprite img {
     width: 100px;
-    /* Ancho de la imagen */
     height: auto;
-    /* Altura automática */
     display: block;
-    /* Para centrar la imagen */
     margin: 0 auto;
-    /* Centrar la imagen */
 }
 
 .details {
